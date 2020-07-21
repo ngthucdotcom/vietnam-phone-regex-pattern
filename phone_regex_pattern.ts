@@ -17,7 +17,7 @@
  * => Mobile phone of MobiFone/Vinaphone/Viettel/Gmobile in Vietnam
  * - Group 4: (02+([0-9]{9})\b)
  * => Telephone in Vietnam
- * Source: https://vi.wikipedia.org/wiki/M%C3%A3_%C4%91i%E1%BB%87n_tho%E1%BA%A1i_Vi%E1%BB%87t_Nam
+ * Source: https://vi.wikipedia.org/wiki/Mã_điện_thoại_Việt_Nam
  */
 export const phone_regex_pattern: string = '((032|033|034|035|036|037|038|039|052|055|056|058|059|070|076|077|078|079)+([0-9]{7})\\b)|(08+([1-9]{8})\\b)|(09+([0-9]{8})\\b)|(02+([0-9]{9})\\b)';
 
